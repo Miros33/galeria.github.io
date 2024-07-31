@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: block;
+    position: relative;
+    margin: 10% auto;
+    width: 400px;
+    height: 800px;
+    overflow: hidden;
+    
+  }
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 10), transparent); /* Cambia el gradiente para hacer el borde superior transparente */
+    top: 0;
+    left: 0;
+}
+
+
+
+  
+  
+
+  
+ 
+  
+ 
+ 
